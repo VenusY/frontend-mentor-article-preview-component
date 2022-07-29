@@ -1,0 +1,22 @@
+.article-info__share-button--inactive:hover {
+  background: #b1bcca;
+}
+
+.article-info__share-button--inactive:focus-visible {
+  background: #b1bcca;
+  outline: dashed #3dd6ff;
+}
+
+.article-info__share-button--active:hover {
+  background: #505e70;
+}
+
+.article-info__share-button--active:focus-visible {
+  background: #505e70;
+  outline: dashed #3dd6ff;
+}
+
+.socials__link:hover > .socials__icon,
+.socials__link:focus-visible > .socials__icon {
+  fill: #3dd6ff;
+}

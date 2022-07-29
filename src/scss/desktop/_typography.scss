@@ -1,0 +1,11 @@
+@use "../util/functions" as u;
+
+@media screen and (min-width: u.rem(1000)) {
+  #article-preview__heading {
+    font-size: u.rem(20);
+  }
+
+  #article-preview__paragraph {
+    font-size: u.rem(13);
+  }
+}

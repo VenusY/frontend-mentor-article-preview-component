@@ -1,0 +1,50 @@
+@use "../util/functions" as u;
+
+body {
+  background: var(--clr-light-grayish-blue);
+}
+
+#card {
+  background: white;
+  border-radius: u.rem(10);
+  box-shadow: 0 20px 50px #d3dde7;
+}
+
+#card__image-container {
+  border-radius: u.rem(10) u.rem(10) 0 0;
+}
+
+#article-info__author-avatar {
+  border-radius: 50%;
+}
+
+.article-info__share-button--inactive {
+  background: var(--clr-light-grayish-blue);
+}
+
+.article-info__share-button--active {
+  background: var(--clr-desaturated-dark-blue);
+}
+
+#article-info__share-button {
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+
+  .share-button__icon--inactive {
+    fill: #6e8098;
+  }
+
+  .share-button__icon--active {
+    fill: white;
+  }
+}
+
+#main__share-section {
+  background: var(--clr-very-dark-grayish-blue);
+  border-radius: 0 0 u.rem(10) u.rem(10);
+}
+
+.socials__icon {
+  fill: white;
+}

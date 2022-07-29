@@ -1,0 +1,19 @@
+@use "../util/functions" as u;
+
+#article-info__share-button {
+  transition: background 0.15s;
+}
+
+#main__share-section {
+  transition: bottom 0.2s, visibility 0.2s;
+}
+
+.socials__icon {
+  transition: fill 0.15s;
+}
+
+@media screen and (min-width: u.rem(1000)) {
+  #main__share-section {
+    transition: transform 0.15s, visibility 0.15s;
+  }
+}

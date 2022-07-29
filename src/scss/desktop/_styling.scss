@@ -1,0 +1,11 @@
+@use "../util/functions" as u;
+
+@media screen and (min-width: u.rem(1000)) {
+  #card__image-container {
+    border-radius: u.rem(10) 0 0 u.rem(10);
+  }
+
+  #main__share-section {
+    border-radius: u.rem(10);
+  }
+}

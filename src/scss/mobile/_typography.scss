@@ -1,0 +1,42 @@
+@use "../util/functions" as u;
+
+#card__article-preview {
+  font-family: var(--ff-manrope);
+}
+
+#article-preview__heading {
+  font-weight: 700;
+  color: var(--clr-very-dark-grayish-blue);
+  letter-spacing: u.rem(0.04);
+}
+
+#article-preview__paragraph {
+  font-size: u.rem(13);
+  color: var(--clr-desaturated-dark-blue);
+  letter-spacing: u.rem(0.36);
+  line-height: 1.54;
+}
+
+#article-info__name-and-date {
+  font-size: u.rem(13);
+  letter-spacing: u.rem(0.24);
+}
+
+#article-info__author-name {
+  font-weight: 700;
+  color: var(--clr-very-dark-grayish-blue);
+}
+
+#article-info__date-published {
+  color: var(--clr-grayish-blue);
+}
+
+#main__share-section {
+  font-size: u.rem(12);
+  color: var(--clr-grayish-blue);
+  letter-spacing: u.rem(5.6);
+
+  .socials__link {
+    font-size: 0;
+  }
+}

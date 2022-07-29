@@ -1,0 +1,8 @@
+@use "../util/functions" as u;
+
+@media screen and (min-width: u.rem(1000)) and (max-height: u.rem(320)) {
+  main {
+    height: auto;
+    padding: u.rem(80);
+  }
+}

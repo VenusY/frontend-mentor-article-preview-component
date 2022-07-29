@@ -1,0 +1,16 @@
+@use "../util/functions" as u;
+
+@media screen and (max-width: u.rem(350)) {
+  main {
+    min-width: u.rem(375);
+    height: auto;
+    padding: u.rem(50) u.rem(20);
+  }
+}
+
+@media screen and (max-width: u.rem(999)) and (max-height: u.rem(550)) {
+  main {
+    height: auto;
+    padding: u.rem(80) 0;
+  }
+}
