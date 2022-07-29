@@ -1,6 +1,8 @@
 # frontend-mentor-article-preview-component
 Solution to the Frontend Mentor article preview component challenge using semantic HTML and SCSS.
 
+Thank you for taking an interest in my solution!
+
 ## My process
 
 Built with:
@@ -11,6 +13,8 @@ Built with:
 - Mobile-first workflow
 
 The card was centered on the page using flexbox by setting the height of the <main> tag to 100vh, then setting both justify-content and align-items to 'center'. The layout of the card on desktop was also created using flexbox, as was the author section at the bottom of the text section.
+
+This was my second time using SCSS to complete a project on Frontend Mentor. This time, I used SCSS functions to make converting pixels to rems much easier and faster. Instead of have to do it manually each time, I made a function that took the pixel value in as a parameter, then divided this value by 16 to convert it to rems. Finally, the function would return the value with 'rem' added to it, which meant I didn't have to type 'rem' each time I wanted to use this on a property.
 
 ## What I learned
 
